@@ -25,9 +25,14 @@ body, html, body * {
 }
 
 #Line-nameTag {
-	margin-top: 0%;
-	border: 1px solid black;
+	/*margin-top: 0%;
+	border: 1px solid black;*/
 	width:150%;
+	height: 0.15em;
+    padding: 0;
+    background-color: black;
+    border: 0;
+
 }
 
 #tag-nameLine {
@@ -60,14 +65,14 @@ body, html, body * {
 	font-family: futura;
 	text-decoration: none;
 	color:black;
-	font-size: 25px;
 	line-height: 1em;
 	vertical-align: middle;
 }
 #socialLink span {
 	margin-top: 10px;
+	font-size: 20px;
 }
 #socialLink img {
-	width:50px;
+	width:30px;
 	vertical-align: middle;
 }
